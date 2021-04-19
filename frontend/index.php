@@ -10,7 +10,7 @@
                          
 						<!-- Search -->
 						<div class="search-box">
-							<form action="search.html">
+							<form action="search.php">
 								<div class="form-group search-location">
 									<input type="text" class="form-control" placeholder="Search Location">
 									<span class="form-text">Based on your Location</span>
@@ -18,6 +18,10 @@
 								<div class="form-group search-info">
 									<input type="text" class="form-control" placeholder="Search Doctors, Clinics, Hospitals, Diseases Etc">
 									<span class="form-text">Ex : Dental or Sugar Check up etc</span>
+								</div>
+								<div class="form-group search-medkit">
+									<input type="text" class="form-control" placeholder="Search Isurance">
+									<span class="form-text">Isurance</span>
 								</div>
 								<button type="submit" class="btn btn-primary search-btn"><i class="fas fa-search"></i> <span>Search</span></button>
 							</form>
@@ -43,7 +47,7 @@
 										<div class="doctor-book-card-content tile-card-content-1">
 											<div>
 												<h3 class="card-title mb-0">Visit a Doctor</h3>
-												<a href="search.html" class="btn book-btn1 px-3 py-2 mt-3" tabindex="0">Book Now</a>
+												<a href="search.php" class="btn book-btn1 px-3 py-2 mt-3" tabindex="0">Book Now</a>
 											</div>
 										</div>
 									</div>
@@ -54,7 +58,7 @@
 										<div class="doctor-book-card-content tile-card-content-1">
 											<div>
 												<h3 class="card-title mb-0">Find a Pharmacy</h3>
-												<a href="pharmacy-search.html" class="btn book-btn1 px-3 py-2 mt-3" tabindex="0">Find Now</a>
+												<a href="pharmacy-search.php" class="btn book-btn1 px-3 py-2 mt-3" tabindex="0">Find Now</a>
 											</div>
 										</div>
 									</div>
@@ -168,7 +172,7 @@
 								<!-- Doctor Widget -->
 								<div class="profile-widget">
 									<div class="doc-img">
-										<a href="doctor-profile.html">
+										<a href="doctor-profile.php">
 											<img class="img-fluid" alt="User Image" src="assets/img/doctors/doctor-01.jpg">
 										</a>
 										<a href="javascript:void(0)" class="fav-btn">
@@ -177,7 +181,7 @@
 									</div>
 									<div class="pro-content">
 										<h3 class="title">
-											<a href="doctor-profile.html">Ruby Perrin</a> 
+											<a href="doctor-profile.php">Ruby Perrin</a> 
 											<i class="fas fa-check-circle verified"></i>
 										</h3>
 										<p class="speciality">MDS - Periodontology and Oral Implantology, BDS</p>
@@ -203,10 +207,10 @@
 										</ul>
 										<div class="row row-sm">
 											<div class="col-6">
-												<a href="doctor-profile.html" class="btn view-btn">View Profile</a>
+												<a href="doctor-profile.php" class="btn view-btn">View Profile</a>
 											</div>
 											<div class="col-6">
-												<a href="booking.html" class="btn book-btn">Book Now</a>
+												<a href="booking.php" class="btn book-btn">Book Now</a>
 											</div>
 										</div>
 									</div>
@@ -216,7 +220,7 @@
 								<!-- Doctor Widget -->
 								<div class="profile-widget">
 									<div class="doc-img">
-										<a href="doctor-profile.html">
+										<a href="doctor-profile.php">
 											<img class="img-fluid" alt="User Image" src="assets/img/doctors/doctor-02.jpg">
 										</a>
 										<a href="javascript:void(0)" class="fav-btn">
@@ -225,7 +229,7 @@
 									</div>
 									<div class="pro-content">
 										<h3 class="title">
-											<a href="doctor-profile.html">Darren Elder</a> 
+											<a href="doctor-profile.php">Darren Elder</a> 
 											<i class="fas fa-check-circle verified"></i>
 										</h3>
 										<p class="speciality">BDS, MDS - Oral & Maxillofacial Surgery</p>
@@ -251,10 +255,10 @@
 										</ul>
 										<div class="row row-sm">
 											<div class="col-6">
-												<a href="doctor-profile.html" class="btn view-btn">View Profile</a>
+												<a href="doctor-profile.php" class="btn view-btn">View Profile</a>
 											</div>
 											<div class="col-6">
-												<a href="booking.html" class="btn book-btn">Book Now</a>
+												<a href="booking.php" class="btn book-btn">Book Now</a>
 											</div>
 										</div>
 									</div>
@@ -264,7 +268,7 @@
 								<!-- Doctor Widget -->
 								<div class="profile-widget">
 									<div class="doc-img">
-										<a href="doctor-profile.html">
+										<a href="doctor-profile.php">
 											<img class="img-fluid" alt="User Image" src="assets/img/doctors/doctor-03.jpg">
 										</a>
 										<a href="javascript:void(0)" class="fav-btn">
@@ -273,7 +277,7 @@
 									</div>
 									<div class="pro-content">
 										<h3 class="title">
-											<a href="doctor-profile.html">Deborah Angel</a> 
+											<a href="doctor-profile.php">Deborah Angel</a> 
 											<i class="fas fa-check-circle verified"></i>
 										</h3>
 										<p class="speciality">MBBS, MD - General Medicine, DNB - Cardiology</p>
@@ -299,10 +303,10 @@
 										</ul>
 										<div class="row row-sm">
 											<div class="col-6">
-												<a href="doctor-profile.html" class="btn view-btn">View Profile</a>
+												<a href="doctor-profile.php" class="btn view-btn">View Profile</a>
 											</div>
 											<div class="col-6">
-												<a href="booking.html" class="btn book-btn">Book Now</a>
+												<a href="booking.php" class="btn book-btn">Book Now</a>
 											</div>
 										</div>
 									</div>
@@ -312,7 +316,7 @@
 								<!-- Doctor Widget -->
 								<div class="profile-widget">
 									<div class="doc-img">
-										<a href="doctor-profile.html">
+										<a href="doctor-profile.php">
 											<img class="img-fluid" alt="User Image" src="assets/img/doctors/doctor-04.jpg">
 										</a>
 										<a href="javascript:void(0)" class="fav-btn">
@@ -321,7 +325,7 @@
 									</div>
 									<div class="pro-content">
 										<h3 class="title">
-											<a href="doctor-profile.html">Sofia Brient</a> 
+											<a href="doctor-profile.php">Sofia Brient</a> 
 											<i class="fas fa-check-circle verified"></i>
 										</h3>
 										<p class="speciality">MBBS, MS - General Surgery, MCh - Urology</p>
@@ -347,10 +351,10 @@
 										</ul>
 										<div class="row row-sm">
 											<div class="col-6">
-												<a href="doctor-profile.html" class="btn view-btn">View Profile</a>
+												<a href="doctor-profile.php" class="btn view-btn">View Profile</a>
 											</div>
 											<div class="col-6">
-												<a href="booking.html" class="btn book-btn">Book Now</a>
+												<a href="booking.php" class="btn book-btn">Book Now</a>
 											</div>
 										</div>
 									</div>
@@ -360,7 +364,7 @@
 								<!-- Doctor Widget -->
 								<div class="profile-widget">
 									<div class="doc-img">
-										<a href="doctor-profile.html">
+										<a href="doctor-profile.php">
 											<img class="img-fluid" alt="User Image" src="assets/img/doctors/doctor-05.jpg">
 										</a>
 										<a href="javascript:void(0)" class="fav-btn">
@@ -369,7 +373,7 @@
 									</div>
 									<div class="pro-content">
 										<h3 class="title">
-											<a href="doctor-profile.html">Marvin Campbell</a> 
+											<a href="doctor-profile.php">Marvin Campbell</a> 
 											<i class="fas fa-check-circle verified"></i>
 										</h3>
 										<p class="speciality">MBBS, MD - Ophthalmology, DNB - Ophthalmology</p>
@@ -395,10 +399,10 @@
 										</ul>
 										<div class="row row-sm">
 											<div class="col-6">
-												<a href="doctor-profile.html" class="btn view-btn">View Profile</a>
+												<a href="doctor-profile.php" class="btn view-btn">View Profile</a>
 											</div>
 											<div class="col-6">
-												<a href="booking.html" class="btn book-btn">Book Now</a>
+												<a href="booking.php" class="btn book-btn">Book Now</a>
 											</div>
 										</div>
 									</div>
@@ -408,7 +412,7 @@
 								<!-- Doctor Widget -->
 								<div class="profile-widget">
 									<div class="doc-img">
-										<a href="doctor-profile.html">
+										<a href="doctor-profile.php">
 											<img class="img-fluid" alt="User Image" src="assets/img/doctors/doctor-06.jpg">
 										</a>
 										<a href="javascript:void(0)" class="fav-btn">
@@ -417,7 +421,7 @@
 									</div>
 									<div class="pro-content">
 										<h3 class="title">
-											<a href="doctor-profile.html">Katharine Berthold</a> 
+											<a href="doctor-profile.php">Katharine Berthold</a> 
 											<i class="fas fa-check-circle verified"></i>
 										</h3>
 										<p class="speciality">MS - Orthopaedics, MBBS, M.Ch - Orthopaedics</p>
@@ -443,10 +447,10 @@
 										</ul>
 										<div class="row row-sm">
 											<div class="col-6">
-												<a href="doctor-profile.html" class="btn view-btn">View Profile</a>
+												<a href="doctor-profile.php" class="btn view-btn">View Profile</a>
 											</div>
 											<div class="col-6">
-												<a href="booking.html" class="btn book-btn">Book Now</a>
+												<a href="booking.php" class="btn book-btn">Book Now</a>
 											</div>
 										</div>
 									</div>
@@ -456,7 +460,7 @@
 								<!-- Doctor Widget -->
 								<div class="profile-widget">
 									<div class="doc-img">
-										<a href="doctor-profile.html">
+										<a href="doctor-profile.php">
 											<img class="img-fluid" alt="User Image" src="assets/img/doctors/doctor-07.jpg">
 										</a>
 										<a href="javascript:void(0)" class="fav-btn">
@@ -465,7 +469,7 @@
 									</div>
 									<div class="pro-content">
 										<h3 class="title">
-											<a href="doctor-profile.html">Linda Tobin</a> 
+											<a href="doctor-profile.php">Linda Tobin</a> 
 											<i class="fas fa-check-circle verified"></i>
 										</h3>
 										<p class="speciality">MBBS, MD - General Medicine, DM - Neurology</p>
@@ -491,10 +495,10 @@
 										</ul>
 										<div class="row row-sm">
 											<div class="col-6">
-												<a href="doctor-profile.html" class="btn view-btn">View Profile</a>
+												<a href="doctor-profile.php" class="btn view-btn">View Profile</a>
 											</div>
 											<div class="col-6">
-												<a href="booking.html" class="btn book-btn">Book Now</a>
+												<a href="booking.php" class="btn book-btn">Book Now</a>
 											</div>
 										</div>
 									</div>
@@ -504,7 +508,7 @@
 								<!-- Doctor Widget -->
 								<div class="profile-widget">
 									<div class="doc-img">
-										<a href="doctor-profile.html">
+										<a href="doctor-profile.php">
 											<img class="img-fluid" alt="User Image" src="assets/img/doctors/doctor-08.jpg">
 										</a>
 										<a href="javascript:void(0)" class="fav-btn">
@@ -513,7 +517,7 @@
 									</div>
 									<div class="pro-content">
 										<h3 class="title">
-											<a href="doctor-profile.html">Paul Richard</a> 
+											<a href="doctor-profile.php">Paul Richard</a> 
 											<i class="fas fa-check-circle verified"></i>
 										</h3>
 										<p class="speciality">MBBS, MD - Dermatology , Venereology & Lepros</p>
@@ -539,10 +543,10 @@
 										</ul>
 										<div class="row row-sm">
 											<div class="col-6">
-												<a href="doctor-profile.html" class="btn view-btn">View Profile</a>
+												<a href="doctor-profile.php" class="btn view-btn">View Profile</a>
 											</div>
 											<div class="col-6">
-												<a href="booking.html" class="btn book-btn">Book Now</a>
+												<a href="booking.php" class="btn book-btn">Book Now</a>
 											</div>
 										</div>
 									</div>
@@ -634,18 +638,18 @@
 							<!-- Blog Post -->
 							<div class="blog grid-blog">
 								<div class="blog-image">
-									<a href="blog-details.html"><img class="img-fluid" src="assets/img/blog/blog-01.jpg" alt="Post Image"></a>
+									<a href="blog-details.php"><img class="img-fluid" src="assets/img/blog/blog-01.jpg" alt="Post Image"></a>
 								</div>
 								<div class="blog-content">
 									<ul class="entry-meta meta-item">
 										<li>
 											<div class="post-author">
-												<a href="doctor-profile.html"><img src="assets/img/doctors/doctor-thumb-01.jpg" alt="Post Author"> <span>Dr. Ruby Perrin</span></a>
+												<a href="doctor-profile.php"><img src="assets/img/doctors/doctor-thumb-01.jpg" alt="Post Author"> <span>Dr. Ruby Perrin</span></a>
 											</div>
 										</li>
 										<li><i class="far fa-clock"></i> 4 Dec 2019</li>
 									</ul>
-									<h3 class="blog-title"><a href="blog-details.html">Doccure – Making your clinic painless visit?</a></h3>
+									<h3 class="blog-title"><a href="blog-details.php">Doccure – Making your clinic painless visit?</a></h3>
 									<p class="mb-0">Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor.</p>
 								</div>
 							</div>
@@ -657,18 +661,18 @@
 							<!-- Blog Post -->
 							<div class="blog grid-blog">
 								<div class="blog-image">
-									<a href="blog-details.html"><img class="img-fluid" src="assets/img/blog/blog-02.jpg" alt="Post Image"></a>
+									<a href="blog-details.php"><img class="img-fluid" src="assets/img/blog/blog-02.jpg" alt="Post Image"></a>
 								</div>
 								<div class="blog-content">
 									<ul class="entry-meta meta-item">
 										<li>
 											<div class="post-author">
-												<a href="doctor-profile.html"><img src="assets/img/doctors/doctor-thumb-02.jpg" alt="Post Author"> <span>Dr. Darren Elder</span></a>
+												<a href="doctor-profile.php"><img src="assets/img/doctors/doctor-thumb-02.jpg" alt="Post Author"> <span>Dr. Darren Elder</span></a>
 											</div>
 										</li>
 										<li><i class="far fa-clock"></i> 3 Dec 2019</li>
 									</ul>
-									<h3 class="blog-title"><a href="blog-details.html">What are the benefits of Online Doctor Booking?</a></h3>
+									<h3 class="blog-title"><a href="blog-details.php">What are the benefits of Online Doctor Booking?</a></h3>
 									<p class="mb-0">Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor.</p>
 								</div>
 							</div>
@@ -680,18 +684,18 @@
 							<!-- Blog Post -->
 							<div class="blog grid-blog">
 								<div class="blog-image">
-									<a href="blog-details.html"><img class="img-fluid" src="assets/img/blog/blog-03.jpg" alt="Post Image"></a>
+									<a href="blog-details.php"><img class="img-fluid" src="assets/img/blog/blog-03.jpg" alt="Post Image"></a>
 								</div>
 								<div class="blog-content">
 									<ul class="entry-meta meta-item">
 										<li>
 											<div class="post-author">
-												<a href="doctor-profile.html"><img src="assets/img/doctors/doctor-thumb-03.jpg" alt="Post Author"> <span>Dr. Deborah Angel</span></a>
+												<a href="doctor-profile.php"><img src="assets/img/doctors/doctor-thumb-03.jpg" alt="Post Author"> <span>Dr. Deborah Angel</span></a>
 											</div>
 										</li>
 										<li><i class="far fa-clock"></i> 3 Dec 2019</li>
 									</ul>
-									<h3 class="blog-title"><a href="blog-details.html">Benefits of consulting with an Online Doctor</a></h3>
+									<h3 class="blog-title"><a href="blog-details.php">Benefits of consulting with an Online Doctor</a></h3>
 									<p class="mb-0">Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor.</p>
 								</div>
 							</div>
@@ -703,18 +707,18 @@
 							<!-- Blog Post -->
 							<div class="blog grid-blog">
 								<div class="blog-image">
-									<a href="blog-details.html"><img class="img-fluid" src="assets/img/blog/blog-04.jpg" alt="Post Image"></a>
+									<a href="blog-details.php"><img class="img-fluid" src="assets/img/blog/blog-04.jpg" alt="Post Image"></a>
 								</div>
 								<div class="blog-content">
 									<ul class="entry-meta meta-item">
 										<li>
 											<div class="post-author">
-												<a href="doctor-profile.html"><img src="assets/img/doctors/doctor-thumb-04.jpg" alt="Post Author"> <span>Dr. Sofia Brient</span></a>
+												<a href="doctor-profile.php"><img src="assets/img/doctors/doctor-thumb-04.jpg" alt="Post Author"> <span>Dr. Sofia Brient</span></a>
 											</div>
 										</li>
 										<li><i class="far fa-clock"></i> 2 Dec 2019</li>
 									</ul>
-									<h3 class="blog-title"><a href="blog-details.html">5 Great reasons to use an Online Doctor</a></h3>
+									<h3 class="blog-title"><a href="blog-details.php">5 Great reasons to use an Online Doctor</a></h3>
 									<p class="mb-0">Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor.</p>
 								</div>
 							</div>
@@ -723,7 +727,7 @@
 						</div>
 					</div>
 					<div class="view-all text-center"> 
-						<a href="blog-list.html" class="btn btn-primary">View All</a>
+						<a href="blog-list.php" class="btn btn-primary">View All</a>
 					</div>
 				</div>
 			</section>

@@ -84,15 +84,15 @@
                                     <div class="col">
                                         <ul class="nav nav-tabs nav-tabs-solid">
                                             <li class="nav-item">
-                                                <a class="nav-link active" href="blog.html">Acitive Blog</a>
+                                                <a class="nav-link active" href="blog.php">Acitive Blog</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href="pending-blog.html">Pending Blog</a>
+                                                <a class="nav-link" href="pending-blog.php">Pending Blog</a>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="col-auto">
-                                        <a class="btn btn-primary btn-sm" href="add-blog.html"><i class="fas fa-plus mr-1"></i> Add Blog</a>
+                                        <a class="btn btn-primary btn-sm" href="add-blog.php"><i class="fas fa-plus mr-1"></i> Add Blog</a>
                                     </div>
                                 </div>
 							
@@ -110,7 +110,7 @@
 												<ul class="entry-meta meta-item">
 													<li>
 														<div class="post-author">
-															<a href="profile.html"><img src="assets/img/doctors/doctor-thumb-01.jpg" alt="Post Author"> <span>Dr. Ruby Perrin</span></a>
+															<a href="profile.php"><img src="assets/img/doctors/doctor-thumb-01.jpg" alt="Post Author"> <span>Dr. Ruby Perrin</span></a>
 														</div>
 													</li>
 													<li><i class="far fa-clock"></i> 4 Dec 2019</li>
@@ -119,7 +119,7 @@
 												<p class="mb-0">Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor.</p>
 											</div>
 											<div class="row pt-3">
-												<div class="col"><a href="edit-blog.html" class="text-success"><i class="far fa-edit"></i> Edit</a></div>
+												<div class="col"><a href="edit-blog.php" class="text-success"><i class="far fa-edit"></i> Edit</a></div>
 																											
 												<div class="col text-right"><a href="javascript:void(0);" class="text-danger" data-toggle="modal" data-target="#deleteNotConfirmModal"><i class="far fa-trash-alt"></i> Inactive</a></div>
 											</div>
@@ -138,7 +138,7 @@
 												<ul class="entry-meta meta-item">
 													<li>
 														<div class="post-author">
-															<a href="profile.html"><img src="assets/img/doctors/doctor-thumb-02.jpg" alt="Post Author"> <span>Dr. Darren Elder</span></a>
+															<a href="profile.php"><img src="assets/img/doctors/doctor-thumb-02.jpg" alt="Post Author"> <span>Dr. Darren Elder</span></a>
 														</div>
 													</li>
 													<li><i class="far fa-clock"></i> 3 Dec 2019</li>
@@ -147,7 +147,7 @@
 												<p class="mb-0">Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor.</p>
 											</div>
 											<div class="row pt-3">
-												<div class="col"><a href="edit-blog.html" class="text-success"><i class="far fa-edit"></i> Edit</a></div>
+												<div class="col"><a href="edit-blog.php" class="text-success"><i class="far fa-edit"></i> Edit</a></div>
 																											
 												<div class="col text-right"><a href="javascript:void(0);" class="text-danger" data-toggle="modal" data-target="#deleteNotConfirmModal"><i class="far fa-trash-alt"></i> Inactive</a></div>
 											</div>
@@ -166,7 +166,7 @@
 												<ul class="entry-meta meta-item">
 													<li>
 														<div class="post-author">
-															<a href="profile.html"><img src="assets/img/doctors/doctor-thumb-03.jpg" alt="Post Author"> <span>Dr. Deborah Angel</span></a>
+															<a href="profile.php"><img src="assets/img/doctors/doctor-thumb-03.jpg" alt="Post Author"> <span>Dr. Deborah Angel</span></a>
 														</div>
 													</li>
 													<li><i class="far fa-clock"></i> 3 Dec 2019</li>
@@ -175,7 +175,7 @@
 												<p class="mb-0">Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor.</p>
 											</div>
 											<div class="row pt-3">
-												<div class="col"><a href="edit-blog.html" class="text-success"><i class="far fa-edit"></i> Edit</a></div>
+												<div class="col"><a href="edit-blog.php" class="text-success"><i class="far fa-edit"></i> Edit</a></div>
 																											
 												<div class="col text-right"><a href="javascript:void(0);" class="text-danger" data-toggle="modal" data-target="#deleteNotConfirmModal"><i class="far fa-trash-alt"></i> Inactive</a></div>
 											</div>
@@ -194,7 +194,7 @@
 												<ul class="entry-meta meta-item">
 													<li>
 														<div class="post-author">
-															<a href="profile.html"><img src="assets/img/doctors/doctor-thumb-04.jpg" alt="Post Author"> <span>Dr. Sofia Brient</span></a>
+															<a href="profile.php"><img src="assets/img/doctors/doctor-thumb-04.jpg" alt="Post Author"> <span>Dr. Sofia Brient</span></a>
 														</div>
 													</li>
 													<li><i class="far fa-clock"></i> 2 Dec 2019</li>
@@ -203,7 +203,7 @@
 												<p class="mb-0">Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor.</p>
 											</div>
 											<div class="row pt-3">
-												<div class="col"><a href="edit-blog.html" class="text-success"><i class="far fa-edit"></i> Edit</a></div>
+												<div class="col"><a href="edit-blog.php" class="text-success"><i class="far fa-edit"></i> Edit</a></div>
 																											
 												<div class="col text-right"><a href="javascript:void(0);" class="text-danger" data-toggle="modal" data-target="#deleteNotConfirmModal"><i class="far fa-trash-alt"></i> Inactive</a></div>
 											</div>
@@ -222,7 +222,7 @@
 												<ul class="entry-meta meta-item">
 													<li>
 														<div class="post-author">
-															<a href="profile.html"><img src="assets/img/doctors/doctor-thumb-05.jpg" alt="Post Author"> <span>Dr. Marvin Campbell</span></a>
+															<a href="profile.php"><img src="assets/img/doctors/doctor-thumb-05.jpg" alt="Post Author"> <span>Dr. Marvin Campbell</span></a>
 														</div>
 													</li>
 													<li><i class="far fa-clock"></i> 1 Dec 2019</li>
@@ -231,7 +231,7 @@
 												<p class="mb-0">Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor.</p>
 											</div>
 											<div class="row pt-3">
-												<div class="col"><a href="edit-blog.html" class="text-success"><i class="far fa-edit"></i> Edit</a></div>
+												<div class="col"><a href="edit-blog.php" class="text-success"><i class="far fa-edit"></i> Edit</a></div>
 																											
 												<div class="col text-right"><a href="javascript:void(0);" class="text-danger" data-toggle="modal" data-target="#deleteNotConfirmModal"><i class="far fa-trash-alt"></i> Inactive</a></div>
 											</div>
@@ -250,7 +250,7 @@
 												<ul class="entry-meta meta-item">
 													<li>
 														<div class="post-author">
-															<a href="profile.html"><img src="assets/img/doctors/doctor-thumb-06.jpg" alt="Post Author"> <span>Dr. Katharine Berthold</span></a>
+															<a href="profile.php"><img src="assets/img/doctors/doctor-thumb-06.jpg" alt="Post Author"> <span>Dr. Katharine Berthold</span></a>
 														</div>
 													</li>
 													<li><i class="far fa-clock"></i> 30 Nov 2019</li>
@@ -259,7 +259,7 @@
 												<p class="mb-0">Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor.</p>
 											</div>
 											<div class="row pt-3">
-												<div class="col"><a href="edit-blog.html" class="text-success"><i class="far fa-edit"></i> Edit</a></div>
+												<div class="col"><a href="edit-blog.php" class="text-success"><i class="far fa-edit"></i> Edit</a></div>
 																											
 												<div class="col text-right"><a href="javascript:void(0);" class="text-danger" data-toggle="modal" data-target="#deleteNotConfirmModal"><i class="far fa-trash-alt"></i> Inactive</a></div>
 											</div>
@@ -278,7 +278,7 @@
 												<ul class="entry-meta meta-item">
 													<li>
 														<div class="post-author">
-															<a href="profile.html"><img src="assets/img/doctors/doctor-thumb-07.jpg" alt="Post Author"> <span>Dr. Linda Tobin</span></a>
+															<a href="profile.php"><img src="assets/img/doctors/doctor-thumb-07.jpg" alt="Post Author"> <span>Dr. Linda Tobin</span></a>
 														</div>
 													</li>
 													<li><i class="far fa-clock"></i> 28 Nov 2019</li>
@@ -287,7 +287,7 @@
 												<p class="mb-0">Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor.</p>
 											</div>
 											<div class="row pt-3">
-												<div class="col"><a href="edit-blog.html" class="text-success"><i class="far fa-edit"></i> Edit</a></div>
+												<div class="col"><a href="edit-blog.php" class="text-success"><i class="far fa-edit"></i> Edit</a></div>
 																											
 												<div class="col text-right"><a href="javascript:void(0);" class="text-danger" data-toggle="modal" data-target="#deleteNotConfirmModal"><i class="far fa-trash-alt"></i> Inactive</a></div>
 											</div>
@@ -306,7 +306,7 @@
 												<ul class="entry-meta meta-item">
 													<li>
 														<div class="post-author">
-															<a href="profile.html"><img src="assets/img/doctors/doctor-thumb-08.jpg" alt="Post Author"> <span>Dr. Paul Richard </span></a>
+															<a href="profile.php"><img src="assets/img/doctors/doctor-thumb-08.jpg" alt="Post Author"> <span>Dr. Paul Richard </span></a>
 														</div>
 													</li>
 													<li><i class="far fa-clock"></i> 25 Nov 2019</li>
@@ -315,7 +315,7 @@
 												<p class="mb-0">Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor.</p>
 											</div>
 											<div class="row pt-3">
-												<div class="col"><a href="edit-blog.html" class="text-success"><i class="far fa-edit"></i> Edit</a></div>
+												<div class="col"><a href="edit-blog.php" class="text-success"><i class="far fa-edit"></i> Edit</a></div>
 																											
 												<div class="col text-right"><a href="javascript:void(0);" class="text-danger" data-toggle="modal" data-target="#deleteNotConfirmModal"><i class="far fa-trash-alt"></i> Inactive</a></div>
 											</div>
@@ -334,7 +334,7 @@
 												<ul class="entry-meta meta-item">
 													<li>
 														<div class="post-author">
-															<a href="profile.html"><img src="assets/img/doctors/doctor-thumb-09.jpg" alt="Post Author"> <span>Dr. John Gibbs</span></a>
+															<a href="profile.php"><img src="assets/img/doctors/doctor-thumb-09.jpg" alt="Post Author"> <span>Dr. John Gibbs</span></a>
 														</div>
 													</li>
 													<li><i class="far fa-clock"></i> 24 Nov 2019</li>
@@ -343,7 +343,7 @@
 												<p class="mb-0">Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor.</p>
 											</div>
 											<div class="row pt-3">
-												<div class="col"><a href="edit-blog.html" class="text-success"><i class="far fa-edit"></i> Edit</a></div>
+												<div class="col"><a href="edit-blog.php" class="text-success"><i class="far fa-edit"></i> Edit</a></div>
 																											
 												<div class="col text-right"><a href="javascript:void(0);" class="text-danger" data-toggle="modal" data-target="#deleteNotConfirmModal"><i class="far fa-trash-alt"></i> Inactive</a></div>
 											</div>
@@ -362,7 +362,7 @@
 												<ul class="entry-meta meta-item">
 													<li>
 														<div class="post-author">
-															<a href="profile.html"><img src="assets/img/doctors/doctor-thumb-10.jpg" alt="Post Author"> <span>Dr. Olga Barlow</span></a>
+															<a href="profile.php"><img src="assets/img/doctors/doctor-thumb-10.jpg" alt="Post Author"> <span>Dr. Olga Barlow</span></a>
 														</div>
 													</li>
 													<li><i class="far fa-clock"></i> 23 Nov 2019</li>
@@ -371,7 +371,7 @@
 												<p class="mb-0">Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor.</p>
 											</div>
 											<div class="row pt-3">
-												<div class="col"><a href="edit-blog.html" class="text-success"><i class="far fa-edit"></i> Edit</a></div>
+												<div class="col"><a href="edit-blog.php" class="text-success"><i class="far fa-edit"></i> Edit</a></div>
 																											
 												<div class="col text-right"><a href="javascript:void(0);" class="text-danger" data-toggle="modal" data-target="#deleteNotConfirmModal"><i class="far fa-trash-alt"></i> Inactive</a></div>
 											</div>

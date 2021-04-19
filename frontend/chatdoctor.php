@@ -662,8 +662,8 @@
 									<!-- Copyright Menu -->
 									<div class="copyright-menu">
 										<ul class="policy-menu">
-											<li><a href="term-condition.html">Terms and Conditions</a></li>
-											<li><a href="privacy-policy.html">Policy</a></li>
+											<li><a href="term-condition.php">Terms and Conditions</a></li>
+											<li><a href="privacy-policy.php">Policy</a></li>
 										</ul>
 									</div>
 									<!-- /Copyright Menu -->
@@ -700,7 +700,7 @@
 									</div>							
 									<div class="call-items">
 										<a href="javascript:void(0);" class="btn call-item call-end" data-dismiss="modal" aria-label="Close"><i class="material-icons">call_end</i></a>
-										<a href="voice-call.html" class="btn call-item call-start"><i class="material-icons">call</i></a>
+										<a href="voice-call.php" class="btn call-item call-start"><i class="material-icons">call</i></a>
 									</div>
 								</div>
 							</div>
@@ -730,7 +730,7 @@
 									</div>							
 									<div class="call-items">
 										<a href="javascript:void(0);" class="btn call-item call-end" data-dismiss="modal" aria-label="Close"><i class="material-icons">call_end</i></a>
-										<a href="video-call.html" class="btn call-item call-start"><i class="material-icons">videocam</i></a>
+										<a href="video-call.php" class="btn call-item call-start"><i class="material-icons">videocam</i></a>
 									</div>
 								</div>
 							</div>

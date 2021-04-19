@@ -1,5 +1,5 @@
 <?php
-$SERVER_IPADDRESS = $_SERVER['HTTP_HOST'];
+$SERVER_IPADDRESS = $_SERVER['HTTP_HOST']."/Doctae_new/frontend";
 
 session_start();
 ?>
@@ -41,7 +41,8 @@ session_start();
 				var settings = new XMLHttpRequest();
 				userEmail = "<?php 
 				if (isset($_SESSION["user"])){ echo $_SESSION["user"]; }else{echo "";} ?>";
-				var url = "http://<?php echo $SERVER_IPADDRESS;?>:3000/api/settings/getSettings";
+				// var url = "http://localhost:3000/api/settings/getSettings";
+				var url = "http://localhost:3000/api/settings/getSettings";
 				settings.open("POST", url, true);
 				settings.setRequestHeader("Content-Type", "application/json");
 				settings.onreadystatechange = function () {
@@ -60,7 +61,8 @@ session_start();
 				settings.send(data);				
 				//////////////////
 				var user = new XMLHttpRequest();
-				var url = "http://<?php echo $SERVER_IPADDRESS;?>:3000/api/user/getUserinfo";
+				// var url = "http://localhost:3000/api/user/getUserinfo";
+				var url = "http://localhost:3000/api/user/getUserinfo";
 				user.open("POST", url, true);
 				user.setRequestHeader("Content-Type", "application/json");
 				user.onreadystatechange = function () {
@@ -111,7 +113,7 @@ session_start();
 					</div>
 					<div class="main-menu-wrapper">
 						<div class="menu-header">
-							<a href="index.html" class="menu-logo">
+							<a href="index.php" class="menu-logo">
 								<img src="assets/img/logo.png" id="logosmall" class="img-fluid" alt="Logo">
 							</a>
 							<a id="menu_close" class="menu-close" href="javascript:void(0);">
@@ -125,22 +127,22 @@ session_start();
 							<li class="has-submenu">
 								<a href="">Doctors <i class="fas fa-chevron-down"></i></a>
 								<ul class="submenu">
-									<li><a href="doctor-dashboard.html">Doctor Dashboard</a></li>
-									<li><a href="appointments.html">Appointments</a></li>
-									<li><a href="schedule-timings.html">Schedule Timing</a></li>
-									<li><a href="my-patients.html">Patients List</a></li>
-									<li><a href="patient-profile.html">Patients Profile</a></li>
-									<li><a href="chat-doctor.html">Chat</a></li>
-									<li><a href="invoices.html">Invoices</a></li>
-									<li><a href="doctor-profile-settings.html">Profile Settings</a></li>
-									<li><a href="reviews.html">Reviews</a></li>
-									<li><a href="doctor-register.html">Doctor Register</a></li>
+									<li><a href="doctor-dashboard.php">Doctor Dashboard</a></li>
+									<li><a href="appointments.php">Appointments</a></li>
+									<li><a href="schedule-timings.php">Schedule Timing</a></li>
+									<li><a href="my-patients.php">Patients List</a></li>
+									<li><a href="patient-profile.php">Patients Profile</a></li>
+									<li><a href="chat-doctor.php">Chat</a></li>
+									<li><a href="invoices.php">Invoices</a></li>
+									<li><a href="doctor-profile-settings.php">Profile Settings</a></li>
+									<li><a href="reviews.php">Reviews</a></li>
+									<li><a href="doctor-register.php">Doctor Register</a></li>
 									<li class="has-submenu">
-										<a href="doctor-blog.html">Blog</a>
+										<a href="doctor-blog.php">Blog</a>
 										<ul class="submenu">
-											<li><a href="doctor-blog.html">Blog</a></li>
-											<li><a href="blog-details.html">Blog view</a></li>
-											<li><a href="doctor-add-blog.html">Add Blog</a></li>
+											<li><a href="doctor-blog.php">Blog</a></li>
+											<li><a href="blog-details.php">Blog view</a></li>
+											<li><a href="doctor-add-blog.php">Add Blog</a></li>
 										</ul>
 									</li>
 								</ul>
@@ -151,32 +153,32 @@ session_start();
 									<li class="has-submenu">
 										<a href="#">Doctors</a>
 										<ul class="submenu">
-											<li><a href="map-grid.html">Map Grid</a></li>
-											<li><a href="map-list.html">Map List</a></li>
+											<li><a href="map-grid.php">Map Grid</a></li>
+											<li><a href="map-list.php">Map List</a></li>
 										</ul>
 									</li>
-									<li><a href="search.html">Search Doctor</a></li>
-									<li><a href="doctor-profile.html">Doctor Profile</a></li>
-									<li><a href="booking.html">Booking</a></li>
-									<li><a href="checkout.html">Checkout</a></li>
-									<li><a href="booking-success.html">Booking Success</a></li>
-									<li><a href="patient-dashboard.html">Patient Dashboard</a></li>
-									<li><a href="favourites.html">Favourites</a></li>
-									<li><a href="chat.html">Chat</a></li>
-									<li><a href="profile-settings.html">Profile Settings</a></li>
-									<li><a href="change-password.html">Change Password</a></li>
+									<li><a href="search.php">Search Doctor</a></li>
+									<li><a href="doctor-profile.php">Doctor Profile</a></li>
+									<li><a href="booking.php">Booking</a></li>
+									<li><a href="checkout.php">Checkout</a></li>
+									<li><a href="booking-success.php">Booking Success</a></li>
+									<li><a href="patient-dashboard.php">Patient Dashboard</a></li>
+									<li><a href="favourites.php">Favourites</a></li>
+									<li><a href="chat.php">Chat</a></li>
+									<li><a href="profile-settings.php">Profile Settings</a></li>
+									<li><a href="change-password.php">Change Password</a></li>
 								</ul>
 							</li>
 							<li class="has-submenu">
 								<a href="">Blog <i class="fas fa-chevron-down"></i></a>
 								<ul class="submenu">
-									<li><a href="blog-list.html">Blog List</a></li>
-									<li><a href="blog-grid.html">Blog Grid</a></li>
-									<li><a href="blog-details.html">Blog Details</a></li>
+									<li><a href="blog-list.php">Blog List</a></li>
+									<li><a href="blog-grid.php">Blog Grid</a></li>
+									<li><a href="blog-details.php">Blog Details</a></li>
 								</ul>
 							</li>
 							<li class="login-link">
-								<a href="login.html">Login / Signup</a>
+								<a href="login.php">Login / Signup</a>
 							</li>
 						</ul>
 					</div>		 

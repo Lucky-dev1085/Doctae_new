@@ -4,7 +4,7 @@
 				$(document).ready(function() {
 					
 					var users = new XMLHttpRequest();
-					var url = "http://<?php echo $SERVER_IPADDRESS;?>:3000/api/user/getUserListAll";
+					var url = "http://localhost:3000/api/user/getUserListAll";
 					users.open("POST", url, true);
 					users.setRequestHeader("Content-Type", "application/json");
 					users.onreadystatechange = function () {

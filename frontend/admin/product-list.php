@@ -59,7 +59,7 @@
 		$.ajax({
 			type: "POST",
 			enctype: 'multipart/form-data',
-			url: "http://<?php echo $SERVER_IPADDRESS;?>:3000/api/products/addNewProduct",
+			url: "http://localhost:3000/api/products/addNewProduct",
 			data: data, 
 			processData: false,
 			contentType: false,
@@ -100,7 +100,7 @@
 		$.ajax({
 			type: "POST",
 			enctype: 'multipart/form-data',
-			url: "http://<?php echo $SERVER_IPADDRESS;?>:3000/api/products/editProducts",
+			url: "http://localhost:3000/api/products/editProducts",
 			data: data, 
 			processData: false,
 			contentType: false,
@@ -134,7 +134,7 @@
 	var j;
 	function getSpecialtiesList(){
 		var products = new XMLHttpRequest();
-		var url = "http://<?php echo $SERVER_IPADDRESS;?>:3000/api/products/getProductList";
+		var url = "http://localhost:3000/api/products/getProductList";
 		products.open("POST", url, true);		
 		products.setRequestHeader("Content-Type", "application/json");
 		products.onreadystatechange = function () {
@@ -186,7 +186,7 @@
 		dataid=$(this).attr("productId")
 		console.log(dataid)
 		getProduct = new XMLHttpRequest();
-		url = "http://<?php echo $SERVER_IPADDRESS;?>:3000/api/products/getProductList";
+		url = "http://localhost:3000/api/products/getProductList";
 		getProduct.open("POST", url, true);
 		getProduct.setRequestHeader("Content-Type", "application/json");
 		getProduct.onreadystatechange = function () {
@@ -242,7 +242,7 @@
 		filename=$(this).attr("filename");
 		dataid=$(this).attr("itemid");
 		var specialtiesdelete = new XMLHttpRequest();
-		var url = "http://<?php echo $SERVER_IPADDRESS;?>:3000/api/products/deleteProducts";
+		var url = "http://localhost:3000/api/products/deleteProducts";
 		specialtiesdelete.open("POST", url, true);
 		specialtiesdelete.setRequestHeader("Content-Type", "application/json");
 		specialtiesdelete.onreadystatechange = function () {

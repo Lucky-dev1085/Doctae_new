@@ -72,7 +72,7 @@
 
 																mypatientslistString +=`</a>
 																		<div class="profile-det-info">
-																			<h3><a href="patient-profile.html">`+ firstname+" "+ lastname+`</a></h3>														
+																			<h3><a href="patient-profile.php">`+ firstname+" "+ lastname+`</a></h3>														
 																			<div class="patient-details">
 																				<h5><b>Patient ID :</b> P0016</h5>
 																				<h5 class="mb-0"><i class="fas fa-map-marker-alt"></i>`+ state+" "+ country+`</h5>

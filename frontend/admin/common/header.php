@@ -1,5 +1,6 @@
 <?php
-$SERVER_IPADDRESS = $_SERVER['HTTP_HOST'];
+$SERVER_IPADDRESS = $_SERVER['HTTP_HOST']."/Doctae_new/frontend";
+
 session_start();
 if (!isset($_SESSION["admin"])){
 	header("Location: http://".$SERVER_IPADDRESS."/admin/login.php");
@@ -39,7 +40,8 @@ if (!isset($_SESSION["admin"])){
 		<script>
 			$(document).ready(function() {
 				var settings = new XMLHttpRequest();
-				var url = "http://<?php echo $SERVER_IPADDRESS;?>:3000/api/settings/getSettings";
+				// var url = "http://localhost:3000/api/settings/getSettings";
+				var url = "http://localhost:3000/api/settings/getSettings";
 				settings.open("POST", url, true);
 				settings.setRequestHeader("Content-Type", "application/json");
 				settings.onreadystatechange = function () {
@@ -59,7 +61,8 @@ if (!isset($_SESSION["admin"])){
 				
 				//////////////////
 				var admin = new XMLHttpRequest();
-				var url = "http://<?php echo $SERVER_IPADDRESS;?>:3000/api/user/getAdmin";
+				// var url = "http://localhost:3000/api/user/getAdmin";
+				var url = "http://localhost:3000/api/user/getAdmin";
 				admin.open("POST", url, true);
 				admin.setRequestHeader("Content-Type", "application/json");
 				admin.onreadystatechange = function () {

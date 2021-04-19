@@ -1,6 +1,6 @@
 <?php 
 
-$SERVER_IPADDRESS = $_SERVER['HTTP_HOST'];
+$SERVER_IPADDRESS = $_SERVER['HTTP_HOST']."/Doctae_new/frontend";
 
 session_start();
 if (isset($_SESSION["admin"])){
@@ -120,7 +120,8 @@ if (isset($_SESSION["admin"])){
 				}
 				if((login_email!="") && (login_password!="")){
 					var xhr = new XMLHttpRequest();
-					var url = "http://<?php echo $SERVER_IPADDRESS;?>:3000/api/auth/signin_admin";
+					// var url = "http://localhost:3000/api/auth/signin_admin";
+					var url = "http://localhost:3000/api/auth/signin_admin";
 					xhr.open("POST", url, true);
 					xhr.setRequestHeader("Content-Type", "application/json");
 					xhr.onreadystatechange = function () {

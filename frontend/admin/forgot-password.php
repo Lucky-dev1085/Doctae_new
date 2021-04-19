@@ -1,5 +1,5 @@
 <?php 
-$SERVER_IPADDRESS = $_SERVER['HTTP_HOST'];
+$SERVER_IPADDRESS = $_SERVER['HTTP_HOST']."/Doctae_new/frontend";
 ?>
 
 <!DOCTYPE html>

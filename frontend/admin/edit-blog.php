@@ -86,20 +86,20 @@
                                     <div class="col">
                                         <ul class="nav nav-tabs nav-tabs-solid">
                                             <li class="nav-item">
-                                                <a class="nav-link" href="blog.html">Acitive Blog</a>
+                                                <a class="nav-link" href="blog.php">Acitive Blog</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href="pending-blog.html">Pending Blog</a>
+                                                <a class="nav-link" href="pending-blog.php">Pending Blog</a>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="col-auto">
-                                        <a class="btn btn-primary btn-sm" href="add-blog.html"><i class="fas fa-plus mr-1"></i> Add Blog</a>
+                                        <a class="btn btn-primary btn-sm" href="add-blog.php"><i class="fas fa-plus mr-1"></i> Add Blog</a>
                                     </div>
                                 </div>
 							
 								<!-- Add Blog -->
-								<form method="post" enctype="multipart/form-data" autocomplete="off" id="update_service" action="blog.html">
+								<form method="post" enctype="multipart/form-data" autocomplete="off" id="update_service" action="blog.php">
 									<input type="hidden" name="csrf_token_name" value="0146f123a4c7ae94253b39bca6bd5a5e">
 
 									<div class="service-fields mb-3">

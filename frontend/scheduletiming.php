@@ -2,7 +2,7 @@
 						<script>
 								$(document).ready(function(){
 									var user = new XMLHttpRequest();
-									var url = "http://<?php echo $SERVER_IPADDRESS;?>:3000/api/schedules/getSchedules";
+									var url = "http://localhost:3000/api/schedules/getSchedules";
 									user.open("POST", url, true);
 									user.setRequestHeader("Content-Type", "application/json");
 									user.onreadystatechange = function () {
@@ -235,7 +235,7 @@
 									$(".modal-title").html("Edit Time Slots")
 									timeslotval = $("select#timeSlot").val();
 									var user = new XMLHttpRequest();
-									var url = "http://<?php echo $SERVER_IPADDRESS;?>:3000/api/schedules/getSchedules";
+									var url = "http://localhost:3000/api/schedules/getSchedules";
 									user.open("POST", url, true);
 									user.setRequestHeader("Content-Type", "application/json");
 									user.onreadystatechange = function () {
@@ -376,7 +376,7 @@
 										aaa.find("h4")
 
 										var user = new XMLHttpRequest();
-										var url = "http://<?php echo $SERVER_IPADDRESS;?>:3000/api/schedules/addSchedules";
+										var url = "http://localhost:3000/api/schedules/addSchedules";
 										user.open("POST", url, true);
 										user.setRequestHeader("Content-Type", "application/json");
 										user.onreadystatechange = function () {

@@ -7,7 +7,7 @@
 	})
 	function loadSettings(){
 		var settings = new XMLHttpRequest();
-		var url = "http://<?php echo $SERVER_IPADDRESS;?>:3000/api/settings/getSettings";
+		var url = "http://localhost:3000/api/settings/getSettings";
 		settings.open("POST", url, true);
 		settings.setRequestHeader("Content-Type", "application/json");
 		settings.onreadystatechange = function () {
@@ -41,13 +41,15 @@
 				case "2":
 					var inputdata = $('#logoForm').serialize();
 					var form = $('#logoForm')[0];
-					posturl = "http://<?php echo $SERVER_IPADDRESS;?>:3000/api/settings/createSettings"
+					// posturl = "http://localhost:3000/api/settings/createSettings"
+					posturl = "http://localhost:3000/api/settings/createSettings"
 					var data = new FormData(form);
 					break;
 				case "3":
 					var inputdata = $('#faviconForm').serialize();
 					var form = $('#faviconForm')[0];
-					posturl = "http://<?php echo $SERVER_IPADDRESS;?>:3000/api/settings/createSettings"
+					// posturl = "http://localhost:3000/api/settings/createSettings"
+					posturl = "http://localhost:3000/api/settings/createSettings"
 					var data = new FormData(form);
 					break;
 			}						
@@ -56,13 +58,15 @@
 				case "2":
 					var inputdata = $('#logoForm').serialize();
 					var form = $('#logoForm')[0];
-					posturl = "http://<?php echo $SERVER_IPADDRESS;?>:3000/api/settings/editSettings"
+					// posturl = "http://localhost:3000/api/settings/editSettings"
+					posturl = "http://localhost:3000/api/settings/editSettings"
 					var data = new FormData(form);
 					break;
 				case "3":
 					var inputdata = $('#faviconForm').serialize();
 					var form = $('#faviconForm')[0];
-					posturl = "http://<?php echo $SERVER_IPADDRESS;?>:3000/api/settings/editSettings"
+					// posturl = "http://localhost:3000/api/settings/editSettings"
+					posturl = "http://localhost:3000/api/settings/editSettings"
 					var data = new FormData(form);
 					break;
 			}
@@ -135,7 +139,8 @@
 					if(flag!="yes"){
 						console.log("Have  tapid=1"+ $(this).val())
 						webtitle = new XMLHttpRequest();
-						url = "http://<?php echo $SERVER_IPADDRESS;?>:3000/api/settings/createSettings";
+						// url = "http://localhost:3000/api/settings/createSettings";
+						url = "http://localhost:3000/api/settings/createSettings";
 						webtitle.open("POST", url, true);
 						webtitle.setRequestHeader("Content-Type", "application/json");
 						webtitle.onreadystatechange = function () {
@@ -177,7 +182,8 @@
 					}else{
 						console.log("Haven't  tapid=1"+ $(this).val())
 						webtitle = new XMLHttpRequest();
-						url = "http://<?php echo $SERVER_IPADDRESS;?>:3000/api/settings/editSettings";
+						// url = "http://localhost:3000/api/settings/editSettings";
+						url = "http://localhost:3000/api/settings/editSettings";
 						webtitle.open("POST", url, true);
 						webtitle.setRequestHeader("Content-Type", "application/json");
 						webtitle.onreadystatechange = function () {

@@ -60,7 +60,7 @@
 					$.ajax({
 						type: "POST",
 						enctype: 'multipart/form-data',
-						url: "http://<?php echo $SERVER_IPADDRESS;?>:3000/api/specialties/addSpecialties",
+						url: "http://localhost:3000/api/specialties/addSpecialties",
 						data: data, 
 						processData: false,
 						contentType: false,
@@ -100,7 +100,7 @@
 					$.ajax({
 						type: "POST",
 						enctype: 'multipart/form-data',
-						url: "http://<?php echo $SERVER_IPADDRESS;?>:3000/api/specialties/editSpecialties",
+						url: "http://localhost:3000/api/specialties/editSpecialties",
 						data: data, 
 						processData: false,
 						contentType: false,
@@ -135,7 +135,7 @@
 				var j;
 				function getSpecialtiesList(){
 					var specialties = new XMLHttpRequest();
-					var url = "http://<?php echo $SERVER_IPADDRESS;?>:3000/api/specialties/getSpecialtiesList";
+					var url = "http://localhost:3000/api/specialties/getSpecialtiesList";
 					specialties.open("POST", url, true);
 					specialties.setRequestHeader("Content-Type", "application/json");
 					specialties.onreadystatechange = function () {
@@ -166,7 +166,7 @@
 				$(document).on('click', '#edit_specialities_modal', function(){ 
 					dataid=$(this).attr("specialtyId")
 					specialty = new XMLHttpRequest();
-					url = "http://<?php echo $SERVER_IPADDRESS;?>:3000/api/specialties/getSpecialtiesList";
+					url = "http://localhost:3000/api/specialties/getSpecialtiesList";
 					specialty.open("POST", url, true);
 					specialty.setRequestHeader("Content-Type", "application/json");
 					specialty.onreadystatechange = function () {
@@ -219,7 +219,7 @@
 					filename=$(this).attr("filename");
 					dataid=$(this).attr("itemid");
 					var specialtiesdelete = new XMLHttpRequest();
-					var url = "http://<?php echo $SERVER_IPADDRESS;?>:3000/api/specialties/deleteSpecialties";
+					var url = "http://localhost:3000/api/specialties/deleteSpecialties";
 					specialtiesdelete.open("POST", url, true);
 					specialtiesdelete.setRequestHeader("Content-Type", "application/json");
 					specialtiesdelete.onreadystatechange = function () {

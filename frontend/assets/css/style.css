@@ -2304,7 +2304,7 @@ html.menu-opened body {
 }
 .banner-wrapper {
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 1100px;
     width: 100%;
 }
 .banner-wrapper .banner-header {
@@ -2350,6 +2350,16 @@ html.menu-opened body {
 }
 .search-info .form-control {
 	background: #fff url(../img/search.png) no-repeat 10px center;
+}
+.search-box .search-medkit {
+    -ms-flex: 0 0 240px;
+    flex: 0 0 240px;
+    margin-right: 12px;
+    position: relative;
+    width: 240px;
+}
+.search-medkit .form-control {
+	background: #fff url(../img/medkit.png) no-repeat 10px center;
 }
 .search-box .search-btn {
     width: 46px;

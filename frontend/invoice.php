@@ -18,21 +18,21 @@
 											<tbody>
 												<tr>
 													<td>
-														<a href="invoice-view.html">#INV-0010</a>
+														<a href="invoice-view.php">#INV-0010</a>
 													</td>
 													<td>
 														<h2 class="table-avatar">
-															<a href="patient-profile.html" class="avatar avatar-sm mr-2">
+															<a href="patient-profile.php" class="avatar avatar-sm mr-2">
 																<img class="avatar-img rounded-circle" src="assets/img/patients/patient.jpg" alt="User Image">
 															</a>
-															<a href="patient-profile.html">Richard Wilson <span>#PT0016</span></a>
+															<a href="patient-profile.php">Richard Wilson <span>#PT0016</span></a>
 														</h2>
 													</td>
 													<td>$450</td>
 													<td>14 Nov 2019</td>
 													<td class="text-right">
 														<div class="table-action">
-															<a href="invoice-view.html" class="btn btn-sm bg-info-light">
+															<a href="invoice-view.php" class="btn btn-sm bg-info-light">
 																<i class="far fa-eye"></i> View
 															</a>
 															<a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
@@ -43,21 +43,21 @@
 												</tr>
 												<tr>
 													<td>
-														<a href="invoice-view.html">#INV-0009</a>
+														<a href="invoice-view.php">#INV-0009</a>
 													</td>
 													<td>
 														<h2 class="table-avatar">
-															<a href="patient-profile.html" class="avatar avatar-sm mr-2">
+															<a href="patient-profile.php" class="avatar avatar-sm mr-2">
 																<img class="avatar-img rounded-circle" src="assets/img/patients/patient1.jpg" alt="User Image">
 															</a>
-															<a href="patient-profile.html">Charlene Reed <span>#PT0001</span></a>
+															<a href="patient-profile.php">Charlene Reed <span>#PT0001</span></a>
 														</h2>
 													</td>
 													<td>$200</td>
 													<td>13 Nov 2019</td>
 													<td class="text-right">
 														<div class="table-action">
-															<a href="invoice-view.html" class="btn btn-sm bg-info-light">
+															<a href="invoice-view.php" class="btn btn-sm bg-info-light">
 																<i class="far fa-eye"></i> View
 															</a>
 															<a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
@@ -68,21 +68,21 @@
 												</tr>
 												<tr>
 													<td>
-														<a href="invoice-view.html">#INV-0008</a>
+														<a href="invoice-view.php">#INV-0008</a>
 													</td>
 													<td>
 														<h2 class="table-avatar">
-															<a href="patient-profile.html" class="avatar avatar-sm mr-2">
+															<a href="patient-profile.php" class="avatar avatar-sm mr-2">
 																<img class="avatar-img rounded-circle" src="assets/img/patients/patient2.jpg" alt="User Image">
 															</a>
-															<a href="patient-profile.html">Travis Trimble <span>#PT0002</span></a>
+															<a href="patient-profile.php">Travis Trimble <span>#PT0002</span></a>
 														</h2>
 													</td>
 													<td>$100</td>
 													<td>12 Nov 2019</td>
 													<td class="text-right">
 														<div class="table-action">
-															<a href="invoice-view.html" class="btn btn-sm bg-info-light">
+															<a href="invoice-view.php" class="btn btn-sm bg-info-light">
 																<i class="far fa-eye"></i> View
 															</a>
 															<a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
@@ -93,21 +93,21 @@
 												</tr>
 												<tr>
 													<td>
-														<a href="invoice-view.html">#INV-0007</a>
+														<a href="invoice-view.php">#INV-0007</a>
 													</td>
 													<td>
 														<h2 class="table-avatar">
-															<a href="patient-profile.html" class="avatar avatar-sm mr-2">
+															<a href="patient-profile.php" class="avatar avatar-sm mr-2">
 																<img class="avatar-img rounded-circle" src="assets/img/patients/patient3.jpg" alt="User Image">
 															</a>
-															<a href="patient-profile.html">Carl Kelly <span>#PT0003</span></a>
+															<a href="patient-profile.php">Carl Kelly <span>#PT0003</span></a>
 														</h2>
 													</td>
 													<td>$350</td>
 													<td>11 Nov 2019</td>
 													<td class="text-right">
 														<div class="table-action">
-															<a href="invoice-view.html" class="btn btn-sm bg-info-light">
+															<a href="invoice-view.php" class="btn btn-sm bg-info-light">
 																<i class="far fa-eye"></i> View
 															</a>
 															<a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
@@ -118,21 +118,21 @@
 												</tr>
 												<tr>
 													<td>
-														<a href="invoice-view.html">#INV-0006</a>
+														<a href="invoice-view.php">#INV-0006</a>
 													</td>
 													<td>
 														<h2 class="table-avatar">
-															<a href="patient-profile.html" class="avatar avatar-sm mr-2">
+															<a href="patient-profile.php" class="avatar avatar-sm mr-2">
 																<img class="avatar-img rounded-circle" src="assets/img/patients/patient4.jpg" alt="User Image">
 															</a>
-															<a href="patient-profile.html">Michelle Fairfax <span>#PT0004</span></a>
+															<a href="patient-profile.php">Michelle Fairfax <span>#PT0004</span></a>
 														</h2>
 													</td>
 													<td>$275</td>
 													<td>10 Nov 2019</td>
 													<td class="text-right">
 														<div class="table-action">
-															<a href="invoice-view.html" class="btn btn-sm bg-info-light">
+															<a href="invoice-view.php" class="btn btn-sm bg-info-light">
 																<i class="far fa-eye"></i> View
 															</a>
 															<a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
@@ -143,21 +143,21 @@
 												</tr>
 												<tr>
 													<td>
-														<a href="invoice-view.html">#INV-0005</a>
+														<a href="invoice-view.php">#INV-0005</a>
 													</td>
 													<td>
 														<h2 class="table-avatar">
-															<a href="patient-profile.html" class="avatar avatar-sm mr-2">
+															<a href="patient-profile.php" class="avatar avatar-sm mr-2">
 																<img class="avatar-img rounded-circle" src="assets/img/patients/patient5.jpg" alt="User Image">
 															</a>
-															<a href="patient-profile.html">Gina Moore <span>#PT0005</span></a>
+															<a href="patient-profile.php">Gina Moore <span>#PT0005</span></a>
 														</h2>
 													</td>
 													<td>$600</td>
 													<td>9 Nov 2019</td>
 													<td class="text-right">
 														<div class="table-action">
-															<a href="invoice-view.html" class="btn btn-sm bg-info-light">
+															<a href="invoice-view.php" class="btn btn-sm bg-info-light">
 																<i class="far fa-eye"></i> View
 															</a>
 															<a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
@@ -168,21 +168,21 @@
 												</tr>
 												<tr>
 													<td>
-														<a href="invoice-view.html">#INV-0004</a>
+														<a href="invoice-view.php">#INV-0004</a>
 													</td>
 													<td>
 														<h2 class="table-avatar">
-															<a href="patient-profile.html" class="avatar avatar-sm mr-2">
+															<a href="patient-profile.php" class="avatar avatar-sm mr-2">
 																<img class="avatar-img rounded-circle" src="assets/img/patients/patient6.jpg" alt="User Image">
 															</a>
-															<a href="patient-profile.html">Elsie Gilley <span>#PT0006</span></a>
+															<a href="patient-profile.php">Elsie Gilley <span>#PT0006</span></a>
 														</h2>
 													</td>
 													<td>$50</td>
 													<td>8 Nov 2019</td>
 													<td class="text-right">
 														<div class="table-action">
-															<a href="invoice-view.html" class="btn btn-sm bg-info-light">
+															<a href="invoice-view.php" class="btn btn-sm bg-info-light">
 																<i class="far fa-eye"></i> View
 															</a>
 															<a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
@@ -193,21 +193,21 @@
 												</tr>
 												<tr>
 													<td>
-														<a href="invoice-view.html">#INV-0003</a>
+														<a href="invoice-view.php">#INV-0003</a>
 													</td>
 													<td>
 														<h2 class="table-avatar">
-															<a href="patient-profile.html" class="avatar avatar-sm mr-2">
+															<a href="patient-profile.php" class="avatar avatar-sm mr-2">
 																<img class="avatar-img rounded-circle" src="assets/img/patients/patient7.jpg" alt="User Image">
 															</a>
-															<a href="patient-profile.html">Joan Gardner <span>#PT0007</span></a>
+															<a href="patient-profile.php">Joan Gardner <span>#PT0007</span></a>
 														</h2>
 													</td>
 													<td>$400</td>
 													<td>7 Nov 2019</td>
 													<td class="text-right">
 														<div class="table-action">
-															<a href="invoice-view.html" class="btn btn-sm bg-info-light">
+															<a href="invoice-view.php" class="btn btn-sm bg-info-light">
 																<i class="far fa-eye"></i> View
 															</a>
 															<a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
@@ -218,21 +218,21 @@
 												</tr>
 												<tr>
 													<td>
-														<a href="invoice-view.html">#INV-0002</a>
+														<a href="invoice-view.php">#INV-0002</a>
 													</td>
 													<td>
 														<h2 class="table-avatar">
-															<a href="patient-profile.html" class="avatar avatar-sm mr-2">
+															<a href="patient-profile.php" class="avatar avatar-sm mr-2">
 																<img class="avatar-img rounded-circle" src="assets/img/patients/patient8.jpg" alt="User Image">
 															</a>
-															<a href="patient-profile.html">Daniel Griffing <span>#PT0008</span></a>
+															<a href="patient-profile.php">Daniel Griffing <span>#PT0008</span></a>
 														</h2>
 													</td>
 													<td>$550</td>
 													<td>6 Nov 2019</td>
 													<td class="text-right">
 														<div class="table-action">
-															<a href="invoice-view.html" class="btn btn-sm bg-info-light">
+															<a href="invoice-view.php" class="btn btn-sm bg-info-light">
 																<i class="far fa-eye"></i> View
 															</a>
 															<a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
@@ -243,21 +243,21 @@
 												</tr>
 												<tr>
 													<td>
-														<a href="invoice-view.html">#INV-0001</a>
+														<a href="invoice-view.php">#INV-0001</a>
 													</td>
 													<td>
 														<h2 class="table-avatar">
-															<a href="patient-profile.html" class="avatar avatar-sm mr-2">
+															<a href="patient-profile.php" class="avatar avatar-sm mr-2">
 																<img class="avatar-img rounded-circle" src="assets/img/patients/patient9.jpg" alt="User Image">
 															</a>
-															<a href="patient-profile.html">Walter Roberson <span>#PT0009</span></a>
+															<a href="patient-profile.php">Walter Roberson <span>#PT0009</span></a>
 														</h2>
 													</td>
 													<td>$100</td>
 													<td>5 Nov 2019</td>
 													<td class="text-right">
 														<div class="table-action">
-															<a href="invoice-view.html" class="btn btn-sm bg-info-light">
+															<a href="invoice-view.php" class="btn btn-sm bg-info-light">
 																<i class="far fa-eye"></i> View
 															</a>
 															<a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
@@ -328,11 +328,11 @@
 								<div class="footer-widget footer-menu">
 									<h2 class="footer-title">For Patients</h2>
 									<ul>
-										<li><a href="search.html">Search for Doctors</a></li>
-										<li><a href="login.html">Login</a></li>
-										<li><a href="register.html">Register</a></li>
-										<li><a href="booking.html">Booking</a></li>
-										<li><a href="patient-dashboard.html">Patient Dashboard</a></li>
+										<li><a href="search.php">Search for Doctors</a></li>
+										<li><a href="login.php">Login</a></li>
+										<li><a href="register.php">Register</a></li>
+										<li><a href="booking.php">Booking</a></li>
+										<li><a href="patient-dashboard.php">Patient Dashboard</a></li>
 									</ul>
 								</div>
 								<!-- /Footer Widget -->
@@ -345,11 +345,11 @@
 								<div class="footer-widget footer-menu">
 									<h2 class="footer-title">For Doctors</h2>
 									<ul>
-										<li><a href="appointments.html">Appointments</a></li>
-										<li><a href="chat.html">Chat</a></li>
-										<li><a href="login.html">Login</a></li>
-										<li><a href="doctor-register.html">Register</a></li>
-										<li><a href="doctor-dashboard.html">Doctor Dashboard</a></li>
+										<li><a href="appointments.php">Appointments</a></li>
+										<li><a href="chat.php">Chat</a></li>
+										<li><a href="login.php">Login</a></li>
+										<li><a href="doctor-register.php">Register</a></li>
+										<li><a href="doctor-dashboard.php">Doctor Dashboard</a></li>
 									</ul>
 								</div>
 								<!-- /Footer Widget -->
@@ -402,8 +402,8 @@
 									<!-- Copyright Menu -->
 									<div class="copyright-menu">
 										<ul class="policy-menu">
-											<li><a href="term-condition.html">Terms and Conditions</a></li>
-											<li><a href="privacy-policy.html">Policy</a></li>
+											<li><a href="term-condition.php">Terms and Conditions</a></li>
+											<li><a href="privacy-policy.php">Policy</a></li>
 										</ul>
 									</div>
 									<!-- /Copyright Menu -->

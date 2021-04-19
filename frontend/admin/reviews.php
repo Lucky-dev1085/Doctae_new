@@ -4,7 +4,7 @@
 				$(document).ready(function() {
 					
 					var users = new XMLHttpRequest();
-					var url = "http://<?php echo $SERVER_IPADDRESS;?>:3000/api/review/getReviewListAll";
+					var url = "http://localhost:3000/api/review/getReviewListAll";
 					users.open("POST", url, true);
 					users.setRequestHeader("Content-Type", "application/json");
 					users.onreadystatechange = function () {
@@ -130,7 +130,7 @@
 						itemid = $(this).attr("itemid")
 
 						var userActive = new XMLHttpRequest();
-						var url = "http://<?php echo $SERVER_IPADDRESS;?>:3000/api/user/changeUserStatus";
+						var url = "http://localhost:3000/api/user/changeUserStatus";
 						userActive.open("POST", url, true);
 						userActive.setRequestHeader("Content-Type", "application/json");
 						userActive.onreadystatechange = function () {

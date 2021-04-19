@@ -68,7 +68,7 @@
 
 		userEmail = "<?php  if (isset($_SESSION["user"])){ echo $_SESSION["user"]; }else{echo "";} ?>";
 		var user = new XMLHttpRequest();
-		var url = "http://<?php echo $SERVER_IPADDRESS;?>:3000/api/user/getUserinfo";
+		var url = "http://localhost:3000/api/user/getUserinfo";
 		user.open("POST", url, true);
 		user.setRequestHeader("Content-Type", "application/json");
 		user.onreadystatechange = function () {

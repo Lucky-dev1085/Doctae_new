@@ -61,13 +61,13 @@
 					userCategory = userCategory.trim();
 					if(userCategory=="D"){
 						userCategory="Doctor";
-						var url = "http://<?php echo $SERVER_IPADDRESS;?>:3000/api/user/getUserListProfile";
+						var url = "http://localhost:3000/api/user/getUserListProfile";
 					}else if(userCategory=="P"){
 						userCategory="Patients"
-						var url = "http://<?php echo $SERVER_IPADDRESS;?>:3000/api/user/getUserListProfile";
+						var url = "http://localhost:3000/api/user/getUserListProfile";
 					}else if(userCategory=="M"){
 						userCategory="Admin"
-						var url = "http://<?php echo $SERVER_IPADDRESS;?>:3000/api/user/getAdminProfile";
+						var url = "http://localhost:3000/api/user/getAdminProfile";
 					}
 
 					var users = new XMLHttpRequest();
@@ -209,9 +209,9 @@
 					}else{
 						var user = new XMLHttpRequest();
 						if(userCategory!="Admin"){
-							var url = "http://<?php echo $SERVER_IPADDRESS;?>:3000/api/user/saveMember";
+							var url = "http://localhost:3000/api/user/saveMember";
 						}else{
-							var url = "http://<?php echo $SERVER_IPADDRESS;?>:3000/api/user/saveadmin";
+							var url = "http://localhost:3000/api/user/saveadmin";
 						}
 						user.open("POST", url, true);
 						user.setRequestHeader("Content-Type", "application/json");
@@ -283,9 +283,9 @@
 						$(this).html("Edit")
 
 						if(userCategory!="Admin"){
-							var posturl = "http://<?php echo $SERVER_IPADDRESS;?>:3000/api/user/editUserAvatar";
+							var posturl = "http://localhost:3000/api/user/editUserAvatar";
 						}else{
-							var posturl = "http://<?php echo $SERVER_IPADDRESS;?>:3000/api/user/editAdminAvatar";
+							var posturl = "http://localhost:3000/api/user/editAdminAvatar";
 						}
 						console.log(userCategory)
 						
@@ -503,9 +503,9 @@
 					}else{
 						var user = new XMLHttpRequest();
 						if(userCategory!="Admin"){
-							var url = "http://<?php echo $SERVER_IPADDRESS;?>:3000/api/user/changeUserPwd";
+							var url = "http://localhost:3000/api/user/changeUserPwd";
 						}else{
-							var url = "http://<?php echo $SERVER_IPADDRESS;?>:3000/api/user/changePwd";
+							var url = "http://localhost:3000/api/user/changePwd";
 						}
 						user.open("POST", url, true);
 						user.setRequestHeader("Content-Type", "application/json");

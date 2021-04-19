@@ -218,7 +218,7 @@
 				}			
 				
 				var xhr = new XMLHttpRequest();
-				var url = "http://<?php echo $SERVER_IPADDRESS;?>:3000/api/auth/signup";
+				var url = "http://localhost:3000/api/auth/signup";
 				xhr.open("POST", url, true);
 				xhr.setRequestHeader("Content-Type", "application/json");
 				xhr.onreadystatechange = function () {

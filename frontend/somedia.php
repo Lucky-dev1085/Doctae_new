@@ -111,11 +111,11 @@
 								<div class="footer-widget footer-menu">
 									<h2 class="footer-title">For Patients</h2>
 									<ul>
-										<li><a href="search.html">Search for Doctors</a></li>
-										<li><a href="login.html">Login</a></li>
-										<li><a href="register.html">Register</a></li>
-										<li><a href="booking.html">Booking</a></li>
-										<li><a href="patient-dashboard.html">Patient Dashboard</a></li>
+										<li><a href="search.php">Search for Doctors</a></li>
+										<li><a href="login.php">Login</a></li>
+										<li><a href="register.php">Register</a></li>
+										<li><a href="booking.php">Booking</a></li>
+										<li><a href="patient-dashboard.php">Patient Dashboard</a></li>
 									</ul>
 								</div>
 								<!-- /Footer Widget -->
@@ -128,11 +128,11 @@
 								<div class="footer-widget footer-menu">
 									<h2 class="footer-title">For Doctors</h2>
 									<ul>
-										<li><a href="appointments.html">Appointments</a></li>
-										<li><a href="chat.html">Chat</a></li>
-										<li><a href="login.html">Login</a></li>
-										<li><a href="doctor-register.html">Register</a></li>
-										<li><a href="doctor-dashboard.html">Doctor Dashboard</a></li>
+										<li><a href="appointments.php">Appointments</a></li>
+										<li><a href="chat.php">Chat</a></li>
+										<li><a href="login.php">Login</a></li>
+										<li><a href="doctor-register.php">Register</a></li>
+										<li><a href="doctor-dashboard.php">Doctor Dashboard</a></li>
 									</ul>
 								</div>
 								<!-- /Footer Widget -->
@@ -185,8 +185,8 @@
 									<!-- Copyright Menu -->
 									<div class="copyright-menu">
 										<ul class="policy-menu">
-											<li><a href="term-condition.html">Terms and Conditions</a></li>
-											<li><a href="privacy-policy.html">Policy</a></li>
+											<li><a href="term-condition.php">Terms and Conditions</a></li>
+											<li><a href="privacy-policy.php">Policy</a></li>
 										</ul>
 									</div>
 									<!-- /Copyright Menu -->

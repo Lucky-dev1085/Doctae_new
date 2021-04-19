@@ -1,5 +1,5 @@
 <?php
-$SERVER_IPADDRESS = $_SERVER['HTTP_HOST'];
+$SERVER_IPADDRESS = $_SERVER['HTTP_HOST']."/Doctae_new/frontend";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -148,7 +148,8 @@ $SERVER_IPADDRESS = $_SERVER['HTTP_HOST'];
 				}
 				if(((sign_password!="") && (sign_confirm_password!="") && (sign_email!="") && (sign_lastname!="") && (sign_firstName!=""))&&(sign_password == sign_confirm_password)){
 					var xhr = new XMLHttpRequest();
-					var url = "http://<?php echo $SERVER_IPADDRESS;?>:3000/api/auth/signup_admin";
+					// var url = "http://localhost:3000/api/auth/signup_admin";
+					var url = "http://localhost:3000/api/auth/signup_admin";
 					xhr.open("POST", url, true);
 					xhr.setRequestHeader("Content-Type", "application/json");
 					xhr.onreadystatechange = function () {
